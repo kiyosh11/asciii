@@ -1,0 +1,11 @@
+.asciiMaker {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.asciiOutput {
+  white-space: pre;
+  overflow: auto;
+}
