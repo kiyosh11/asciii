@@ -41,7 +41,7 @@ const AsciiMaker = () => {
         const ctx = canvas.getContext('2d');
         const scaleFactor = Math.min(400 / img.width, 200 / img.height);
         const width = Math.floor(img.width * scaleFactor);
-        const height = Math.floor(img.height * scaleFactor);
+        const height = Math.floor(img.height * scaleFactor * 0.5);
 
         canvas.width = width;
         canvas.height = height;
